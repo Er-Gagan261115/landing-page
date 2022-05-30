@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width:100%;
+    height:100%;
+    background: url("https://inspirationfeed.com/wp-content/uploads/2016/08/mobile_wallpaper_by_maria_shanina-min.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.middle_page{
+    width: 65%;
+    height:65%;
+    border-radius: 20px;
+    box-shadow:  1px 1px 5px black;
+    background-color: rgba(53, 58, 64, 0.234);
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.left{
+    display:grid;
+    grid-template-rows:70px 1fr 90px;
+    background-color: rgba(250, 235, 215, 0.304);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background:url("https://thumbs.dreamstime.com/b/wood-background-wallpaper-hd-123273980.jpg");
+    background-size: 100% 100%;
+}
+.logo{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+.logo p{
+font-size: 40px;
+color:yellow;
+align-self: center;
+}
+.logo img{
+height:70px;
+width:70px;
+border-radius:50%;
+place-self: center;
+
+}
+.content{
+    place-self:center;
+    width: 70%;
+}
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.email{
+    padding-left: 75px;
+}
+#cssemail{
+    width:60%;
+    margin-top:10px;
+    height: 35px;
+    padding-left:20px ;
+    border-radius:20px;
+    border: none;
+}
+#btn{
+    width:50px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgba(247, 235, 9, 0.923);
+    color: rgb(14, 14, 14);
+    margin-left: -12%;
+    border:none;
+
+}
+.right{
+    background: linear-gradient(rgba(255, 255, 0, 0),rgba(255, 0, 0, 0.225)), url("https://buzzly.info/upload/1758/06f58cecd517e250fcc57a550b954312.jpg");
+    background-size:70% 90%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border:5px solid black,10px solid red;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
